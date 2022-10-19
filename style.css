@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    width: 100%;
+}
+
+div#logo 
+{
+    width: 100px;
+    height: 50px;
+    background-color: #ff6f06;
+}
+
+header 
+{
+    width: 100%;
+    height: 100px;
+    background-color: #0090e3;
+}
+
+content 
+{
+    width: 100%;
+    background-color: yellow;
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: #0090e3;
+}
+
+.row
+{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.row > div 
+{
+    width: 50%;
+    height: 60px; 
+}
+
+.left 
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
